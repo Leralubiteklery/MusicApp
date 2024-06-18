@@ -13,6 +13,8 @@
 		ED68903C2C2164B8003D3696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED68903A2C2164B8003D3696 /* Main.storyboard */; };
 		ED68903E2C2164BB003D3696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED68903D2C2164BB003D3696 /* Assets.xcassets */; };
 		ED6890412C2164BB003D3696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED68903F2C2164BB003D3696 /* LaunchScreen.storyboard */; };
+		ED6890492C216712003D3696 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6890482C216712003D3696 /* MainTabBarController.swift */; };
+		ED68904B2C216745003D3696 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68904A2C216745003D3696 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ED68903D2C2164BB003D3696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED6890402C2164BB003D3696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED6890422C2164BB003D3696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6890482C216712003D3696 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		ED68904A2C216745003D3696 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				ED68903D2C2164BB003D3696 /* Assets.xcassets */,
 				ED68903F2C2164BB003D3696 /* LaunchScreen.storyboard */,
 				ED6890422C2164BB003D3696 /* Info.plist */,
+				ED6890482C216712003D3696 /* MainTabBarController.swift */,
+				ED68904A2C216745003D3696 /* SearchViewController.swift */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED68904B2C216745003D3696 /* SearchViewController.swift in Sources */,
 				ED6890392C2164B8003D3696 /* ViewController.swift in Sources */,
 				ED6890352C2164B8003D3696 /* AppDelegate.swift in Sources */,
+				ED6890492C216712003D3696 /* MainTabBarController.swift in Sources */,
 				ED6890372C2164B8003D3696 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
