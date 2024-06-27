@@ -29,8 +29,8 @@ class SearchViewController: UITableViewController {
         
         setupSearchBar()
         
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: " cellId")
-            }
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellId")
+    }
     
     private func setupSearchBar() {
         navigationItem.searchController = searchController
@@ -49,6 +49,7 @@ class SearchViewController: UITableViewController {
         cell.textLabel?.text = "\(track.trackName)\n\(track.artistName)"
         cell.textLabel?.numberOfLines = 2
         cell.imageView?.image =  #imageLiteral(resourceName: "nirvana_bleach")
+        
         return cell
     }
 }
