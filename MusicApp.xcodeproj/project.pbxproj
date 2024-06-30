@@ -15,6 +15,7 @@
 		ED6890412C2164BB003D3696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED68903F2C2164BB003D3696 /* LaunchScreen.storyboard */; };
 		ED6890492C216712003D3696 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6890482C216712003D3696 /* MainTabBarController.swift */; };
 		ED68904B2C216745003D3696 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68904A2C216745003D3696 /* SearchViewController.swift */; };
+		EDCB0AF02C316DFE00303088 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB0AEF2C316DFE00303088 /* SearchResponse.swift */; };
 		FDC91DFB13A29EE3BF639AB8 /* Pods_MusicApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2302F0589E61BD1AA66D7BF8 /* Pods_MusicApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		ED6890422C2164BB003D3696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED6890482C216712003D3696 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		ED68904A2C216745003D3696 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EDCB0AEF2C316DFE00303088 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				ED6890422C2164BB003D3696 /* Info.plist */,
 				ED6890482C216712003D3696 /* MainTabBarController.swift */,
 				ED68904A2C216745003D3696 /* SearchViewController.swift */,
+				EDCB0AEF2C316DFE00303088 /* SearchResponse.swift */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				ED6890392C2164B8003D3696 /* ViewController.swift in Sources */,
 				ED6890352C2164B8003D3696 /* AppDelegate.swift in Sources */,
 				ED6890492C216712003D3696 /* MainTabBarController.swift in Sources */,
+				EDCB0AF02C316DFE00303088 /* SearchResponse.swift in Sources */,
 				ED6890372C2164B8003D3696 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

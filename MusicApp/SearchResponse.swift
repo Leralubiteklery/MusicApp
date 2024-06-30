@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SearchRepsonse: Decodable {
+struct SearchResponse: Decodable {
     var resultCount: Int
     var results: [Track]
 }
