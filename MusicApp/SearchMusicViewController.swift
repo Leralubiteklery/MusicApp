@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 
 
-class SearchViewController: UITableViewController {
+class SearchMusicViewController: UITableViewController, UISearchBarDelegate {
     
     var networkService = NetworkService()
     

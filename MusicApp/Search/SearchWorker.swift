@@ -1,5 +1,5 @@
 //
-//  MusicWorker.swift
+//  SearchWorker.swift
 //  MusicApp
 //
 //  Created by Lera Savchenko on 4.07.24.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class MusicService {
+class SearchService {
 
 }

@@ -1,5 +1,5 @@
 //
-//  MusicModels.swift
+//  SearchModels.swift
 //  MusicApp
 //
 //  Created by Lera Savchenko on 4.07.24.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum Music {
+enum Search {
    
   enum Model {
     struct Request {
