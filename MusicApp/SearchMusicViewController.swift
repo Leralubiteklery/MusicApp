@@ -51,7 +51,7 @@ class SearchMusicViewController: UITableViewController, UISearchBarDelegate {
     }
 }
 
-extension SearchViewController: UISearchBarDelegate {
+extension SearchMusicViewController {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
