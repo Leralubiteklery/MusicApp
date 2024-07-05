@@ -23,7 +23,7 @@
 		EDCB0B0F2C36EF4C00303088 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB0B082C36EF4C00303088 /* SearchModels.swift */; };
 		EDCB0B102C36EF4C00303088 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB0B092C36EF4C00303088 /* SearchViewController.swift */; };
 		EDCB0B112C36EF4C00303088 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB0B0A2C36EF4C00303088 /* SearchInteractor.swift */; };
-		EDCB0B122C36EF4C00303088 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCB0B0B2C36EF4C00303088 /* SearchViewController.xib */; };
+		EDCB0B142C3828E100303088 /* SearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCB0B132C3828E100303088 /* SearchViewController.storyboard */; };
 		FDC91DFB13A29EE3BF639AB8 /* Pods_MusicApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2302F0589E61BD1AA66D7BF8 /* Pods_MusicApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,7 @@
 		EDCB0B082C36EF4C00303088 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
 		EDCB0B092C36EF4C00303088 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EDCB0B0A2C36EF4C00303088 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
-		EDCB0B0B2C36EF4C00303088 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		EDCB0B132C3828E100303088 /* SearchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,13 +121,13 @@
 		EDCB0AF32C36EC9300303088 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				EDCB0B132C3828E100303088 /* SearchViewController.storyboard */,
+				EDCB0B092C36EF4C00303088 /* SearchViewController.swift */,
 				EDCB0B052C36EF4C00303088 /* SearchPresenter.swift */,
 				EDCB0B062C36EF4C00303088 /* SearchWorker.swift */,
 				EDCB0B072C36EF4C00303088 /* SearchRouter.swift */,
 				EDCB0B082C36EF4C00303088 /* SearchModels.swift */,
-				EDCB0B092C36EF4C00303088 /* SearchViewController.swift */,
 				EDCB0B0A2C36EF4C00303088 /* SearchInteractor.swift */,
-				EDCB0B0B2C36EF4C00303088 /* SearchViewController.xib */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			files = (
 				ED6890412C2164BB003D3696 /* LaunchScreen.storyboard in Resources */,
 				ED68903E2C2164BB003D3696 /* Assets.xcassets in Resources */,
-				EDCB0B122C36EF4C00303088 /* SearchViewController.xib in Resources */,
+				EDCB0B142C3828E100303088 /* SearchViewController.storyboard in Resources */,
 				ED68903C2C2164B8003D3696 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
