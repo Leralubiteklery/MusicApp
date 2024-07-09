@@ -126,11 +126,11 @@
 			children = (
 				EDCB0B132C3828E100303088 /* SearchViewController.storyboard */,
 				EDCB0B092C36EF4C00303088 /* SearchViewController.swift */,
+				EDCB0B0A2C36EF4C00303088 /* SearchInteractor.swift */,
 				EDCB0B052C36EF4C00303088 /* SearchPresenter.swift */,
 				EDCB0B062C36EF4C00303088 /* SearchWorker.swift */,
 				EDCB0B072C36EF4C00303088 /* SearchRouter.swift */,
 				EDCB0B082C36EF4C00303088 /* SearchModels.swift */,
-				EDCB0B0A2C36EF4C00303088 /* SearchInteractor.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
