@@ -15,6 +15,7 @@
 		ED6890412C2164BB003D3696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED68903F2C2164BB003D3696 /* LaunchScreen.storyboard */; };
 		ED6890492C216712003D3696 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6890482C216712003D3696 /* MainTabBarController.swift */; };
 		ED68904B2C216745003D3696 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68904A2C216745003D3696 /* SearchMusicViewController.swift */; };
+		ED68E3BD2C5127CA00745E15 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED68E3BC2C5127CA00745E15 /* FooterView.swift */; };
 		ED7762DE2C456794001C8CC3 /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7762DD2C456794001C8CC3 /* TrackCell.xib */; };
 		ED7762E02C4567DE001C8CC3 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7762DF2C4567DE001C8CC3 /* TrackCell.swift */; };
 		EDCB0AF02C316DFE00303088 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCB0AEF2C316DFE00303088 /* SearchResponse.swift */; };
@@ -44,6 +45,7 @@
 		ED6890422C2164BB003D3696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED6890482C216712003D3696 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		ED68904A2C216745003D3696 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
+		ED68E3BC2C5127CA00745E15 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		ED7762DD2C456794001C8CC3 /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
 		ED7762DF2C4567DE001C8CC3 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		EDCB0AEF2C316DFE00303088 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 			path = MusicApp;
 			sourceTree = "<group>";
 		};
+		ED68E3BB2C5127BA00745E15 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				ED68E3BC2C5127CA00745E15 /* FooterView.swift */,
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
 		ED7762DC2C45673C001C8CC3 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 		EDCB0AF32C36EC9300303088 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				ED68E3BB2C5127BA00745E15 /* FooterView */,
 				ED7762DC2C45673C001C8CC3 /* Cell */,
 				EDCB0B132C3828E100303088 /* SearchViewController.storyboard */,
 				EDCB0B092C36EF4C00303088 /* SearchViewController.swift */,
@@ -295,6 +306,7 @@
 				ED6890392C2164B8003D3696 /* ViewController.swift in Sources */,
 				ED6890352C2164B8003D3696 /* AppDelegate.swift in Sources */,
 				EDCB0B112C36EF4C00303088 /* SearchInteractor.swift in Sources */,
+				ED68E3BD2C5127CA00745E15 /* FooterView.swift in Sources */,
 				ED7762E02C4567DE001C8CC3 /* TrackCell.swift in Sources */,
 				ED6890492C216712003D3696 /* MainTabBarController.swift in Sources */,
 				EDCB0AF02C316DFE00303088 /* SearchResponse.swift in Sources */,

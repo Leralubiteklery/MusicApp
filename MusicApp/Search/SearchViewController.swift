@@ -22,6 +22,8 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     let searchController = UISearchController(searchResultsController: nil)
     private var searchViewModel = SearchViewModel.init(cells: [])
     private var timer: Timer?
+    
+    private lazy var footerView = FooterView()
 
   // MARK: Setup
   
@@ -62,21 +64,20 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
         
         let nib = UINib(nibName: "TrackCell", bundle: nil)
         table.register(nib, forCellReuseIdentifier: TrackCell.reuseId)
-        table.tableFooterView = UIView()
+        table.tableFooterView = footerView
     }
   
   func displayData(viewModel: Search.Model.ViewModel.ViewModelData) {
       switch viewModel {
-          
-      case .some:
-          print("viewController .some")
+      case .displayFooterView:
+          footerView.showLoader()
       case .displayTracks(let searchViewModel):
           print("viewController .displayTracks")
           self.searchViewModel = searchViewModel
           table.reloadData()
+          footerView.hideLoader()
       }
   }
-  
 }
 
 // MARK: - UITableViewDelegate, UITableViewDiffableDataSource
