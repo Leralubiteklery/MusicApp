@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1B3FDB2C59209800E08740 /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1B3FDA2C59209800E08740 /* TrackDetailView.xib */; };
+		ED1B3FDD2C5920B700E08740 /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1B3FDC2C5920B700E08740 /* TrackDetailView.swift */; };
 		ED6890352C2164B8003D3696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6890342C2164B8003D3696 /* AppDelegate.swift */; };
 		ED6890372C2164B8003D3696 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6890362C2164B8003D3696 /* SceneDelegate.swift */; };
 		ED6890392C2164B8003D3696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6890382C2164B8003D3696 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 		2302F0589E61BD1AA66D7BF8 /* Pods_MusicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4773047216D93EE3131F3B9A /* Pods-MusicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicApp.debug.xcconfig"; path = "Target Support Files/Pods-MusicApp/Pods-MusicApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CA29084043CCB9F7B39A44A1 /* Pods-MusicApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicApp.release.xcconfig"; path = "Target Support Files/Pods-MusicApp/Pods-MusicApp.release.xcconfig"; sourceTree = "<group>"; };
+		ED1B3FDA2C59209800E08740 /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
+		ED1B3FDC2C5920B700E08740 /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
 		ED6890312C2164B8003D3696 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6890342C2164B8003D3696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED6890362C2164B8003D3696 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,15 @@
 				CA29084043CCB9F7B39A44A1 /* Pods-MusicApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED1B3FD72C591FE000E08740 /* TrackDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				ED1B3FDA2C59209800E08740 /* TrackDetailView.xib */,
+				ED1B3FDC2C5920B700E08740 /* TrackDetailView.swift */,
+			);
+			path = TrackDetailView;
 			sourceTree = "<group>";
 		};
 		ED6890282C2164B8003D3696 = {
@@ -154,6 +167,7 @@
 		EDCB0AF32C36EC9300303088 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				ED1B3FD72C591FE000E08740 /* TrackDetailView */,
 				ED68E3BB2C5127BA00745E15 /* FooterView */,
 				ED7762DC2C45673C001C8CC3 /* Cell */,
 				EDCB0B132C3828E100303088 /* SearchViewController.storyboard */,
@@ -245,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6890412C2164BB003D3696 /* LaunchScreen.storyboard in Resources */,
+				ED1B3FDB2C59209800E08740 /* TrackDetailView.xib in Resources */,
 				ED7762DE2C456794001C8CC3 /* TrackCell.xib in Resources */,
 				ED68903E2C2164BB003D3696 /* Assets.xcassets in Resources */,
 				EDCB0B142C3828E100303088 /* SearchViewController.storyboard in Resources */,
@@ -316,6 +331,7 @@
 				EDCB0B0F2C36EF4C00303088 /* SearchModels.swift in Sources */,
 				ED6890372C2164B8003D3696 /* SceneDelegate.swift in Sources */,
 				EDCB0B0C2C36EF4C00303088 /* SearchPresenter.swift in Sources */,
+				ED1B3FDD2C5920B700E08740 /* TrackDetailView.swift in Sources */,
 				EDCB0AF22C356F4500303088 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
