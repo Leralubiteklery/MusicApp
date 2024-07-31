@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class TrackDetailView: UIView {
     
@@ -21,6 +22,17 @@ class TrackDetailView: UIView {
     override class func awakeFromNib() {
         super.awakeFromNib()
     }
+    
+    func set(viewModel: SearchViewModel.Cell) {
+        trackTitleLabel.text = viewModel.trackName
+        artistLabel.text = viewModel.artistName
+        
+        let string600 = viewModel.iconUrlString?.replacingOccurrences(of: "100x100", with: "600x600")
+        guard let url = URL(string: string600 ?? "") else { return }
+        trackImageView.sd_setImage(with: url)
+    }
+    
+    
     @IBAction func dragDownButtonTapped(_ sender: Any) {
         self.removeFromSuperview()
     }
