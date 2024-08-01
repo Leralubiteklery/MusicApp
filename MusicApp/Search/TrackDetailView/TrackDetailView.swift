@@ -25,11 +25,15 @@ class TrackDetailView: UIView {
         avPlayer.automaticallyWaitsToMinimizeStalling = false
         return avPlayer
     }()
-    
-    override class func awakeFromNib() {
+    //  MARK: - Awake from nib
+    override func awakeFromNib() {
         super.awakeFromNib()
+        
+        let scale: CGFloat = 0.8
+        trackImageView.transform = CGAffineTransform(scaleX: scale, y: scale)
+        trackImageView.layer.cornerRadius = 5
     }
-    
+    //    MARK: - Set up
     func set(viewModel: SearchViewModel.Cell) {
         trackTitleLabel.text = viewModel.trackName
         artistLabel.text = viewModel.artistName
@@ -45,8 +49,22 @@ class TrackDetailView: UIView {
         player.replaceCurrentItem(with: playerItem)
         player.play()
     }
+    //     MARK: - Animations
+    private func enlargeTrackImageView() {
+        UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut) {
+            let scale: CGFloat = 0.8
+            self.trackImageView.transform = CGAffineTransform(scaleX: scale, y: scale)
+        }
+    }
+    
+    private func reduceTrackImageView() {
+        UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut) {
+            self.trackImageView.transform = .identity
+        }
+    }
     
     
+    //    MARK: - IBActions
     @IBAction func dragDownButtonTapped(_ sender: Any) {
         self.removeFromSuperview()
     }
@@ -67,9 +85,11 @@ class TrackDetailView: UIView {
         if player.timeControlStatus == .paused {
             player.play()
             playPauseButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
+            enlargeTrackImageView()
         } else {
             player.pause()
             playPauseButton.setImage(#imageLiteral(resourceName: "play"), for: .normal)
+            reduceTrackImageView()
         }
     }
 }
