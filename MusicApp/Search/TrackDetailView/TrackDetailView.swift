@@ -109,6 +109,7 @@ class TrackDetailView: UIView {
     }
     
     @IBAction func handleVolumeSlider(_ sender: Any) {
+        player.volume = volumeSlider.value
     }
     
     @IBAction func previousTrack(_ sender: Any) {
