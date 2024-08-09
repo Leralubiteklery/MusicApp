@@ -107,7 +107,7 @@ class TrackDetailView: UIView {
     @IBAction func dragDownButtonTapped(_ sender: Any) {
         
         self.tabBarDelegate?.minimizeTrackDetailController()
-//        self.removeFromSuperview()
+        
     }
     
     @IBAction func handleCurrentTimerSlider(_ sender: Any) {
